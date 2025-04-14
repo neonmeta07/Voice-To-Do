@@ -1,1 +1,1 @@
-# Voice-To-Do
+A sleek, interactive to-do list powered by the Web Speech API, allowing you to add, complete, and manage tasks using just your voice. Features localStorage persistence, animated task completion effects (CSS keyframes), and a dynamic microphone visualizer that reacts to your voice. The UI includes glassmorphism cards, smooth transitions, and dark/light mode—all built with vanilla HTML, CSS, and JS. Perfect for hands-free productivity!
