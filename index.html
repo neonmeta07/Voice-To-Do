@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice To-Do</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+</head>
+<body class="light-mode">
+<div class="app-container">
+    <div class="glass-panel header">
+        <h1>Voice To-Do</h1>
+        <div class="theme-toggle">
+            <input type="checkbox" id="theme-switch" class="theme-switch">
+            <label for="theme-switch" class="switch-label">
+                <div class="switch-toggle"></div>
+            </label>
+        </div>
+    </div>
+
+    <div class="glass-panel main-content">
+        <div class="voice-control">
+            <button id="mic-btn" class="mic-button">
+                <div class="mic-icon"></div>
+                <div class="mic-waves">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <p class="voice-status">Click microphone to start</p>
+        </div>
+
+        <div class="manual-input">
+            <input type="text" id="task-input" placeholder="Or type your task here...">
+            <button id="add-btn">Add</button>
+        </div>
+
+        <div class="command-feedback" id="command-feedback"></div>
+
+        <div class="tasks-container">
+            <h2>My Tasks</h2>
+            <div id="tasks-grid" class="tasks-grid"></div>
+        </div>
+
+        <div class="completion-animation" id="completion-animation">
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <h3>All tasks completed!</h3>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
